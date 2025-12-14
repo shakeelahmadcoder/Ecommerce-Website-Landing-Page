@@ -6,7 +6,7 @@ import React from 'react'
 export const HeroSection = () => {
   return (
     <main>
-      <div className='flex   px-4 sm:px-8 md:px-18 py-5 mt-10  gap-6'>
+      <div className='flex flex-col sm:flex-row  px-4 sm:px-8 md:px-18 py-5 sm:mt-10  gap-6'>
         {/* left part  */}
         <div className='w-full sm:w-1/2'>
           <h1 className='text-4xl sm:text-6xl font-light'>Discover Everyday Essentials Delivered to Your Door</h1>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 export const Navbar = () => {
-  const [openNav, setopenNav] = useState(true)
+  const [openNav, setopenNav] = useState(false)
   const changeNav = ()=>{
     setopenNav(!openNav)
   }
