@@ -1,0 +1,131 @@
+import balender from "../public/images/blender.png"
+import bottles from "../public/images/bottles.png"
+import clientscount from "../public/images/clientscount.png"
+import creams from "../public/images/creams.jpg"
+import creamsd from "../public/images/creamsd.jpg"
+import cus1 from "../public/images/cus1.png"
+import cus2 from "../public/images/cus2.png"
+import cus3 from "../public/images/cus3.png"
+import cycle from "../public/images/cycle.png"
+import facebook from "../public/images/facebook.png"
+import icon1 from "../public/images/icon1.png"
+import icon2 from "../public/images/icon2.png"
+import icon3 from "../public/images/icon3.png"
+import icon4 from "../public/images/icon4.png"
+import icon5 from "../public/images/icon5.png"
+import instagram from "../public/images/instagram.png"
+import light from "../public/images/light.png"
+import lights from "../public/images/lights.png"
+import linkdin from "../public/images/linkdin.png"
+import logo from "../public/images/logo.png"
+import makeupset from "../public/images/makeupset.png"
+import mike from "../public/images/mike.png"
+import miniprojector from "../public/images/miniprojector.png"
+import open from "../public/images/open.jpg"
+import perfume from "../public/images/perfume.jpg"
+import phonecover from "../public/images/phonecover.png"
+import striplights from "../public/images/striplights.png"
+import sunglass from "../public/images/sunglass.png"
+import watch from "../public/images/watch.jpg"
+import wirelessmouse from "../public/images/wirelessmouse.png"
+import youtube from "../public/images/youtube.png"
+
+export const Images = {logo, creamsd, facebook, icon1, icon2, icon3, icon4, icon5, instagram, light, lights, linkdin, mike, open, youtube}
+
+export const productCrousel = [
+    {id:1, image: perfume},
+    {id:2, image: watch},
+    {id:3, image: creams},
+]
+
+export const happyCustomers = [
+    {id:1, image: cus1},
+    {id:2, image: cus2},
+    {id:3, image: cus3},
+    {id:4, image: clientscount},
+]
+
+export const products = [
+    {id: 1, name: "Smart Water Bottles", price: 14, image: bottles, category: "lifestyle", topSeller: true, rating: 4.5},
+    {id: 2, name: "LED Strip Lights", price: 18, image: striplights, category: "lighting", topSeller: true, rating: 5},
+    {id: 3, name: "Aromatherapy Diffusers", price: 40, image: balender, category: "wellness", topSeller: false, rating: 4},
+    {id: 4, name: "Phone Creativity Cases", price: 14, image: phonecover, category: "accessories", topSeller: true, rating: 3.5},
+    {id: 5, name: "Beachwlibée Sunglasses", price: 20, image: sunglass, category: "accessories", topSeller: false, rating: 4.5},
+    {id: 6, name: "Portable Mini Projectors", price: 120, image: miniprojector, category: "electronics", topSeller: true, rating: 5},
+    {id: 7, name: "Wireless mouse", price: 12, image: wirelessmouse, category: "electronics", topSeller: false, rating: 4},
+    {id: 8, name: "Makeup set", price: 100, image: makeupset, category: "beauty", topSeller: true, rating: 4.5},
+    {id: 9, name: "Boys cycle", price: 1500, image: cycle, category: "sports", topSeller: false, rating: 5},
+]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Arlene McCoy",
+        role: "Happy client",
+        image: cus1,
+        rating: 5,
+        review: "The user experience on this eCommerce website is top-notch! The site is very intuitive and easy to navigate. I was able to find what I needed in no time, and the checkout process was seamless. The product descriptions are clear, and the images are high-quality, which made it easier to make a decision."
+    },
+    {
+        id: 2,
+        name: "Arlene McCoy",
+        role: "Happy client",
+        image: cus2,
+        rating: 5,
+        review: "I had a fantastic experience shopping on this eCommerce site. The design is modern, clean, and visually appealing. I loved the product filtering options, which helped me narrow down my choices quickly. The site was also responsive, which meant no lag while browsing. One thing I really appreciated was the customer service."
+    },
+    {
+        id: 3,
+        name: "John Smith",
+        role: "Happy client",
+        image: cus3,
+        rating: 4.5,
+        review: "Great shopping experience overall! The website is user-friendly and the product range is impressive. Delivery was quick and the packaging was excellent. Will definitely shop again!"
+    },
+    {
+        id: 4,
+        name: "Sarah Johnson",
+        role: "Happy client",
+        image: cus1,
+        rating: 5,
+        review: "Absolutely love this eCommerce platform! Easy checkout, secure payment options, and amazing customer support. The quality of products exceeded my expectations. Highly recommended!"
+    }
+]
+
+export const companyStory = [
+    {
+        id: 1,
+        year: 2015,
+        title: "The Spark of an Idea",
+        description: "Our eCommerce platform was born from a simple idea: to make online shopping easier, faster, and more personalized for everyone.",
+        position: "left"
+    },
+    {
+        id: 2,
+        year: 2017,
+        title: "Laying the Digital Foundation",
+        description: "We launched our first eCommerce platform, focusing on essentials like streamlined, secure payments, and a user-friendly shopping experience that customers could trust.",
+        position: "right"
+    },
+    {
+        id: 3,
+        year: 2019,
+        title: "Scaling New Heights",
+        description: "Expanded our product catalog and refined our technology, making shopping faster, smarter and more personalized. It was growing in leaps and bounds!",
+        position: "left"
+    },
+    {
+        id: 4,
+        year: 2022,
+        title: "Technology-Driven Growth",
+        description: "Integrated AI-powered recommendations, faster checkout analytics, and real-time inventory tracking—enhancing the customer experience at every step.",
+        position: "right"
+    },
+    {
+        id: 5,
+        year: 2025,
+        title: "Future of Commerce",
+        description: "Shaping the future of eCommerce with innovations in AI, personalized shopping delivery, and sustainable, data-first innovation.",
+        position: "left"
+    }
+]
