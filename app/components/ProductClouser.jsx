@@ -10,32 +10,34 @@ import "swiper/css/pagination";
 
 import { productCrousel } from "@/public/assests";
 import Image from "next/image";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export default function ProductCarousel() {
   return (
     <div className="relative w-full py-10">
 
-      <Swiper
+      <Swiper className="product-swiper"
         modules={[Navigation, Pagination]}
-        centeredSlides={true}
-        slidesPerView={1.4}
+        
+        centeredSlides
+        slidesPerView={1.3}
         initialSlide={1}
-        spaceBetween={20}
-        // loop={true}
+        spaceBetween={-400}
         navigation={{
           prevEl: ".prev-btn",
           nextEl: ".next-btn",
         }}
-        pagination={{
-          el: ".progress-bar",
-          type: "progressbar",
-        }}
-        className="pb-10!"
+        pagination={{ 
+          clickable: true,
+          el: ".custom-pagination",
+         }}
+        
       >
         {productCrousel.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="rounded-2xl overflow-hidden  flex items-center justify-center">
-              <Image className="w-225 rounded-2xl"
+            <div className=" overflow-hidden flex items-center justify-center">
+              <Image
+                className="w-175 rounded-2xl"
                 src={item.image}
                 alt="product"
                 width={500}
@@ -46,15 +48,18 @@ export default function ProductCarousel() {
         ))}
       </Swiper>
 
-      
       {/* Arrows */}
-      <div className="flex justify-center gap-4 mt-6">
-        <button className="prev-btn w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
-          ←
+      <div className="flex items-center justify-center gap-4 mt-6 p-6 w-full sm:max-w-4xl m-auto">
+        <div className="custom-pagination"></div>
+
+    <div className="flex items-center justify-center gap-4">
+      <button className="prev-btn w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+          <ArrowLeft size={40} />
         </button>
-        <button className="next-btn w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
-          →
+        <button className="next-btn w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+          <ArrowRight size={40} />
         </button>
+    </div>
       </div>
 
     </div>
