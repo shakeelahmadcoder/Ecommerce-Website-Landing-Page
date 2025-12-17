@@ -46,16 +46,17 @@ export const happyCustomers = [
 ]
 
 export const products = [
-    {id: 1, name: "Smart Water Bottles", price: 14, image: bottles, category: "lifestyle", topSeller: true, rating: 4.5},
-    {id: 2, name: "LED Strip Lights", price: 18, image: striplights, category: "lighting", topSeller: true, rating: 5},
-    {id: 3, name: "Aromatherapy Diffusers", price: 40, image: balender, category: "wellness", topSeller: false, rating: 4},
-    {id: 4, name: "Phone Creativity Cases", price: 14, image: phonecover, category: "accessories", topSeller: true, rating: 3.5},
-    {id: 5, name: "Beachwlibée Sunglasses", price: 20, image: sunglass, category: "accessories", topSeller: false, rating: 4.5},
-    {id: 6, name: "Portable Mini Projectors", price: 120, image: miniprojector, category: "electronics", topSeller: true, rating: 5},
-    {id: 7, name: "Wireless mouse", price: 12, image: wirelessmouse, category: "electronics", topSeller: false, rating: 4},
-    {id: 8, name: "Makeup set", price: 100, image: makeupset, category: "beauty", topSeller: true, rating: 4.5},
-    {id: 9, name: "Boys cycle", price: 1500, image: cycle, category: "sports", topSeller: false, rating: 5},
+    {id: 1, name: "Smart Water Bottles", price: 14, image: bottles, category: "lifestyle", topSeller: true, rating: 4.5, reviews: 144},
+    {id: 2, name: "LED Strip Lights", price: 18, image: striplights, category: "lighting", topSeller: true, rating: 5, reviews: 50},
+    {id: 3, name: "Aromatherapy Diffusers", price: 40, image: balender, category: "wellness", topSeller: false, rating: 4, reviews: 32},
+    {id: 4, name: "Phone Creativity Cases", price: 14, image: phonecover, category: "accessories", topSeller: true, rating: 3.5, reviews: 78},
+    {id: 5, name: "Beachwlibée Sunglasses", price: 20, image: sunglass, category: "accessories", topSeller: false, rating: 4.5, reviews: 25},
+    {id: 6, name: "Portable Mini Projectors", price: 120, image: miniprojector, category: "electronics", topSeller: true, rating: 5, reviews: 66},
+    {id: 7, name: "Wireless mouse", price: 12, image: wirelessmouse, category: "electronics", topSeller: false, rating: 4, reviews: 90},
+    {id: 8, name: "Makeup set", price: 100, image: makeupset, category: "beauty", topSeller: true, rating: 4.5, reviews: 42},
+    {id: 9, name: "Boys cycle", price: 1500, image: cycle, category: "sports", topSeller: false, rating: 5, reviews: 12},
 ]
+
 
 export const testimonials = [
     {

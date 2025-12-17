@@ -22,7 +22,7 @@ body {
 }
 
 
-.custom-pagination .swiper-pagination-bullet {
+.custom-pagination  .swiper-pagination-bullet {
   width: 100px !important;
   height: 5px !important;
   background: gray !important;
@@ -31,11 +31,29 @@ body {
   transition: all 0.3s ease !important;
 }
 
-.custom-pagination .swiper-pagination-bullet-active {
+.custom-pagination  .swiper-pagination-bullet-active {
   width: 100px !important;
   height: 5px !important;
   background: #000 !important;
   border-radius: 10px !important;
 }
+
+
+.products-pagination .swiper-pagination-bullet {
+  width: 100px !important;
+  height: 5px !important;
+  background: #4d4c4c !important;
+  opacity: 1 !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.products-pagination .swiper-pagination-bullet-active {
+  width: 100px !important;
+  height: 5px !important;
+  background: white !important;
+  border-radius: 10px !important;
+}
+
 
 
