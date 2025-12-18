@@ -29,8 +29,10 @@ import sunglass from "../public/images/sunglass.png"
 import watch from "../public/images/watch.jpg"
 import wirelessmouse from "../public/images/wirelessmouse.png"
 import youtube from "../public/images/youtube.png"
+import frame from "../public/images/Frame.svg"
 
-export const Images = {logo, creamsd, facebook, icon1, icon2, icon3, icon4, icon5, instagram, light, lights, linkdin, mike, open, youtube}
+
+export const Images = {logo, frame, creamsd, facebook, icon1, icon2, icon3, icon4, icon5, instagram, light, lights, linkdin, mike, open, youtube}
 
 export const productCrousel = [
     {id:1, image: perfume},
@@ -99,34 +101,39 @@ export const companyStory = [
         year: 2015,
         title: "The Spark of an Idea",
         description: "Our eCommerce platform was born from a simple idea: to make online shopping easier, faster, and more personalized for everyone.",
-        position: "left"
+        position: "left",
+        icon: icon1
     },
     {
         id: 2,
         year: 2017,
         title: "Laying the Digital Foundation",
         description: "We launched our first eCommerce platform, focusing on essentials like streamlined, secure payments, and a user-friendly shopping experience that customers could trust.",
-        position: "right"
+        position: "right",
+        icon: icon2
     },
     {
         id: 3,
         year: 2019,
         title: "Scaling New Heights",
         description: "Expanded our product catalog and refined our technology, making shopping faster, smarter and more personalized. It was growing in leaps and bounds!",
-        position: "left"
+        position: "left",
+        icon: icon3
     },
     {
         id: 4,
         year: 2022,
         title: "Technology-Driven Growth",
         description: "Integrated AI-powered recommendations, faster checkout analytics, and real-time inventory tracking—enhancing the customer experience at every step.",
-        position: "right"
+        position: "right",
+        icon: icon4
     },
     {
         id: 5,
         year: 2025,
         title: "Future of Commerce",
         description: "Shaping the future of eCommerce with innovations in AI, personalized shopping delivery, and sustainable, data-first innovation.",
-        position: "left"
+        position: "left",
+        icon: icon5
     }
 ]
