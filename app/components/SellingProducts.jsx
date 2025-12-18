@@ -32,10 +32,12 @@ export const SellingProducts = () => {
           prevEl: ".prev-b",
           nextEl: ".next-b",
         }}
+        
         pagination={{
           clickable: true,
           el: ".products-pagination"
         }}
+        
         modules={[Navigation, Pagination]}
         className="mySwiper">
       {products.map((item, index)=>(

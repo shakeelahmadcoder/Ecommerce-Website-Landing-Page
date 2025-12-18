@@ -31,7 +31,8 @@ export default function ProductCarousel() {
           clickable: true,
           el: ".custom-pagination",
          }}
-        
+
+         
       >
         {productCrousel.map((item) => (
           <SwiperSlide key={item.id}>
@@ -53,10 +54,10 @@ export default function ProductCarousel() {
         <div className="custom-pagination"></div>
 
     <div className="flex items-center justify-center gap-4">
-      <button className="prev-btn w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+      <button className="prev-btn sm:w-20 sm:h-20 rounded-full bg-gray-300 flex items-center justify-center">
           <ArrowLeft size={40} />
         </button>
-        <button className="next-btn w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+        <button className="next-btn sm:w-20 sm:h-20 rounded-full bg-gray-300 flex items-center justify-center">
           <ArrowRight size={40} />
         </button>
     </div>
