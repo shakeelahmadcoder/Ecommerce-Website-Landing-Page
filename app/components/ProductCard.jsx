@@ -6,8 +6,10 @@ export const ProductCard = ({item}) => {
   
   
   return (
-    <div className='bg-white p-4 rounded-xl flex flex-col  justify-center gap-2'>
-      <Image className='w-full' src={item.image} height={200} width={200} alt='product-image'/>
+    <div className='bg-white p-3 rounded-xl flex flex-col  justify-center gap-3 h-full'>
+      <div className='w-full h-60 rounded-lg'>
+      <Image className='w-full h-full object-cover rounded-4xl' src={item.image} height={200} width={200} alt='product-image'/>
+      </div>
       <h1 className='text-md font-semibold '>{item.name}</h1>
       <div className='flex gap-2'>
       <RatingStars rating={item.rating}/>

@@ -1,10 +1,11 @@
 import { companyStory, Images } from '@/public/assests'
+import { MoveRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
 const TimeLine = () => {
   return (
-    <div className='flex flex-col justify-center items-center py-5 sm:my-10 relative'>
+    <div className='bg-white flex flex-col justify-center items-center py-5 sm:py-10 relative'>
         <h1 className='text-4xl font-bold'>Our Story</h1>
        <Image className='w-175' src={Images.frame} alt="frame" width={500} height={500} /> 
 
@@ -18,7 +19,9 @@ const TimeLine = () => {
                 </div> 
             </div>
         ))}
+
        </div>
+          <button className='bg-(--primary) cursor-pointer flex items-center justify-center px-4 py-3 text-sm text-white gap-2 rounded-md my-3'>Explore Collection <MoveRight /></button>
     </div> 
   )
 }

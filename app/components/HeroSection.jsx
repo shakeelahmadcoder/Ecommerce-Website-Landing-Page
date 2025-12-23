@@ -2,7 +2,7 @@ import { happyCustomers } from '@/public/assests'
 import { MoveRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
-import ProductCarousel from './ProductClouser'
+import ProductCarousel from './ProductClouser/ProductClouser'
 
 export const HeroSection = () => {
   return (
@@ -23,7 +23,7 @@ export const HeroSection = () => {
         {/* right part  */}
         <div className='w-full sm:w-1/3'>
           <p className='text-sm text-gray-600'>Quality products for modern living – shop now and enjoy exclusive deals.</p>
-          <button className='bg-(--primary) flex items-center justify-center px-4 py-2 text-sm text-white gap-2 rounded-md my-3'>Explore Collection <MoveRight /></button>
+          <button className='bg-(--primary) cursor-pointer flex items-center justify-center px-4 py-3 text-sm text-white gap-2 rounded-md my-3'>Explore Collection <MoveRight /></button>
         </div>
       </div>
       <ProductCarousel/>

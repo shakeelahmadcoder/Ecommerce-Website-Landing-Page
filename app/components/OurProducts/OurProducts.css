@@ -1,0 +1,62 @@
+.ourproducts-pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+/* Scrollbar styling */
+.ourproducts-pagination::-webkit-scrollbar {
+  height: 4px;
+}
+
+.ourproducts-pagination::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ourproducts-pagination::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.ourproducts-pagination .swiper-pagination-bullet {
+  width: 36px;
+  height: 36px;
+  min-width: 36px; /* Important */
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  flex-shrink: 0;
+}
+
+.ourproducts-pagination .swiper-pagination-bullet:hover {
+  background: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.ourproducts-pagination .swiper-pagination-bullet-active {
+  background: #2d3748;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Button styling */
+.prev-b, .next-b {
+  border: 1px solid #e0e0e0;
+}
+
+.prev-b:disabled, .next-b:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

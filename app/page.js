@@ -1,8 +1,9 @@
-import Image from "next/image";
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
-import { SellingProducts } from "./components/SellingProducts";
 import Timeline from "./components/TimeLine";
+import { SellingProducts } from "./components/SellingProducts/SellingProducts";
+import { OurProducts } from "./components/OurProducts/OurProducts";
+import { Testimonials } from "./components/Testimonials/Testimonials";
 
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
     <HeroSection/>
      <SellingProducts/>
      <Timeline/>
+     <OurProducts/>
+     <Testimonials/>
     </div>
   );
 }

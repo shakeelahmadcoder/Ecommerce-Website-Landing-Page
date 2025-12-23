@@ -1,0 +1,44 @@
+
+/* ===============================
+   Custom Swiper Pagination
+   Desktop → Tablet → Mobile
+================================ */
+
+/* 🔹 Desktop (default) */
+.products-pagination {
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.products-pagination .swiper-pagination-bullet {
+  width: 100px;
+  height: 5px;
+  background: #acaaaa;
+  opacity: 1;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.products-pagination .swiper-pagination-bullet-active {
+  width: 100px;
+  background: white;
+}
+
+/* 📲 Tablet */
+@media (max-width: 1023px) {
+  .products-pagination .swiper-pagination-bullet,
+  .products-pagination .swiper-pagination-bullet-active {
+    width: 60px;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 640px) {
+  .products-pagination .swiper-pagination-bullet,
+  .products-pagination .swiper-pagination-bullet-active {
+    width: 28px;
+    height: 4px;
+  }
+}

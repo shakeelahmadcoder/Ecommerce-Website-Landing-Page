@@ -3,18 +3,17 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import "../ProductClouser/ProductClouser.css"
 import { productCrousel } from "@/public/assests";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export default function ProductCarousel() {
   return (
-    <div className="relative w-full py-10">
+    <div className="relative w-full py-5 sm:py-10">
 
       <Swiper className="product-swiper"
         modules={[Navigation, Pagination]}
@@ -32,6 +31,20 @@ export default function ProductCarousel() {
           el: ".custom-pagination",
          }}
 
+         breakpoints={{
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 16,
+          },
+          640: {
+            slidesPerView: 1.1,
+            spaceBetween: -100,
+          },
+          1024: {
+            slidesPerView: 1.3,
+            spaceBetween: -400,
+          },
+  }}
          
       >
         {productCrousel.map((item) => (
