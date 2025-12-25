@@ -30,9 +30,10 @@ import watch from "../public/images/watch.jpg"
 import wirelessmouse from "../public/images/wirelessmouse.png"
 import youtube from "../public/images/youtube.png"
 import frame from "../public/images/Frame.svg"
+import calltoaction from "../public/images/calltoaction.png"
 
 
-export const Images = {logo, frame, creamsd, facebook, icon1, icon2, icon3, icon4, icon5, instagram, light, lights, linkdin, mike, open, youtube}
+export const Images = {logo, calltoaction, frame, creamsd, facebook, icon1, icon2, icon3, icon4, icon5, instagram, light, lights, linkdin, mike, open, youtube}
 
 export const productCrousel = [
     {id:1, image: perfume},
