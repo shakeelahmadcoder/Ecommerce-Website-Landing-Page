@@ -18,7 +18,7 @@ export const Navbar = () => {
 
     
         <ul className='hidden sm:flex items-center justify-center gap-8 '>
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="#services">Our Services</a></li>
           <li><a href="#company">Company</a></li>
           <li><a href="#about">About Us</a></li>

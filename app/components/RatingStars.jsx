@@ -8,13 +8,13 @@ export default function RatingStars({ rating }) {
   return (
     <div className="flex gap-1 text-yellow-400">
       {Array(fullStars).fill(0).map((_, i) => (
-        <Star key={`full-${i}`} fill="currentColor" />
+        <Star size={18} key={`full-${i}`} fill="currentColor" />
       ))}
 
-      {hasHalfStar && <StarHalf fill="currentColor" />}
+      {hasHalfStar && <StarHalf size={18} fill="currentColor" />}
 
       {Array(emptyStars).fill(0).map((_, i) => (
-        <Star key={`empty-${i}`} className="text-gray-300" />
+        <Star size={18} key={`empty-${i}`} className="text-gray-300" />
       ))}
     </div>
   );

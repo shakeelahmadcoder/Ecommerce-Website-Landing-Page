@@ -10,6 +10,7 @@ import "../ProductClouser/ProductClouser.css"
 import { productCrousel } from "@/public/assests";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, Heart, MoveRight } from "lucide-react";
+import Link from "next/link";
 
 export default function ProductCarousel() {
   return (
@@ -60,6 +61,7 @@ export default function ProductCarousel() {
               <Heart size={60} className="absolute top-8 sm:top-10 left-6 sm:left-64  bg-[#757575] text-white p-4 rounded-full"/>
           <button className='bg-transparent  border-2 border-white shadow-md text-white cursor-pointer flex items-center justify-center px-8 py-2 text-sm gap-2 rounded-md my-3 absolute bottom-0 right-8 sm:right-60'>Buy Now <MoveRight /></button>
             </div>
+            
           </SwiperSlide>
         ))}
       </Swiper>
