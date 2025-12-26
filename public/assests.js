@@ -39,6 +39,7 @@ export const productCrousel = [
     {id:1, image: perfume},
     {id:2, image: watch},
     {id:3, image: creams},
+    {id:4, image: perfume},
 ]
 
 export const happyCustomers = [

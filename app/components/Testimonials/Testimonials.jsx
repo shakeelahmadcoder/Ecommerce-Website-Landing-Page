@@ -48,7 +48,7 @@ export const Testimonials = () => {
         className="mySwiper">
       {testimonials.map((item, index)=>(
     <SwiperSlide key={index}>
-        <div className='bg-white p-5 rounded-2xl h-60'>
+        <div className='bg-white p-5 rounded-2xl h-80 sm:h-60 '>
             <div className='flex items-center justify-between'>
             <div className='flex items-center justify-center gap-3'>
                      <Image src={item.image} height={50} width={50} alt='testimonails image'/>

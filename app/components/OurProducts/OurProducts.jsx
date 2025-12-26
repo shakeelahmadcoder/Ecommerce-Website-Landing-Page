@@ -43,7 +43,7 @@ export const OurProducts = () => {
 
          breakpoints={{
           0: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 10,
           },
           640: {
